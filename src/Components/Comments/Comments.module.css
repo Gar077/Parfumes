@@ -1,0 +1,88 @@
+.divBig {
+    width: 100%;
+    height: 500px;
+}
+
+.divbig {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div1 {
+    width: 38%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div2 {
+    width: 300px;
+    height: 200px;
+}
+
+.div2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.div3 {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: end;
+}
+
+.divbig1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big1 {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bigswiper {
+    width: 100%;
+    height: 160px;
+    padding-top: 20px;
+}
+
+.swiper1 {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.swiper1 div {
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+}
+
+
+.imgsw {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 170px;
+    border-radius: 50%;
+}

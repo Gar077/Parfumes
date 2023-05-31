@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.divbig {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1 {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div1 h4 {
+    width: 30px;
+    cursor: default;
+}
+
+.div1small p {
+    width: 180px;
+    cursor: default;
+
+}
+
+.div1 h1 {
+    cursor: default;
+
+}
+
+.div2 {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.div2small {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(66, 152, 223);
+    position: absolute;
+    border-radius: 50%;
+    margin-right: 50px;
+    animation: Hag 3s;
+
+}
+
+@keyframes Hag{
+    from {
+        bottom: 30px;
+        opacity: 10%;
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 100%;
+    }
+}
+
+.div2 img {
+    position: absolute;
+    height: 400px;
+    margin-left: 180px;
+    animation: 2s Dag;
+}
+
+@keyframes Dag {
+    from {
+        top: 20px;
+        opacity: 10%;
+    }
+
+    to {
+        top: 0px;
+        opacity: 100%;
+    }
+}
+
+.div2icon {
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-around;
+    margin-left: 300px;
+    animation: Bag 2s;
+}
+
+@keyframes Bag {
+    from {
+        margin-left: 350px;
+        opacity: 10%;
+    }
+
+    to {
+        margin-left: 300px;
+        opacity: 100%;
+    }
+}
+
+
+
+.bagicon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.div2bag {
+    width: 30px;
+    height: 30px;
+
+}
+
+.div2icontxt {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+}
+
+.div2txticon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+
+}
+
+.div2icontxt span {
+    width: 90px;
+}
+
+
+.div3 {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+}
+
+.div3 h1 {
+    cursor: default;
+}
+
+.div3 p {
+    cursor: default;
+}
